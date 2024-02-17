@@ -1,0 +1,8 @@
+.body{margin: 0 auto; background-color: bisque; }
+.frame{ border: 50px solid black; width: 500px; margin: 0 auto; height: 500px;}
+.canvas{width: 500px; height: 500px; background-color:brown; margin: auto; border: solid 10px brown;}
+.one{border: solid 10px burlywood; background-color: burlywood; width: 400px; height:140px; margin: auto; overflow: hidden; border-radius: 5px 15px 16px 5px; transform: rotate(-1deg);}
+.two{border: solid 10px yellowgreen; background-color: yellowgreen; width: 400px; height: 150px; margin: 10px auto; border-radius: 10px 9px 8px 19px; transform: rotate(-1deg)}
+.three{border: solid 10px orange; background-color: orange; width: 400px; height: 130px; margin: 10px auto; border-radius: 15px 10px 18px 9px; transform: rotate(-1deg);}
+.one, .two, .three {filter: blur(3px)}
+.three {filter: blur(4px)}
